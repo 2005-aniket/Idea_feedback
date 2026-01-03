@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Idea Feedback Module</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Idea Feedback Module</h1>
+
+  <!-- Idea Submission -->
+  <section class="card">
+    <h2>Submit an Idea</h2>
+    <input type="text" id="ideaTitle" placeholder="Idea Title" />
+    <textarea id="ideaDescription" placeholder="Idea Description"></textarea>
+    <button onclick="addIdea()">Submit Idea</button>
+  </section>
+
+  <!-- Ideas List -->
+  <section id="ideasContainer"></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
